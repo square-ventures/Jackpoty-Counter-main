@@ -1,0 +1,694 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #0d1c33;
+}
+.container {
+  width: 100%;
+  color: white;
+}
+
+.main-banner {
+  background-image: url("assets/tablet\ -mobile/main-banner_mobile.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  height: 39px;
+  width: 195px;
+  margin-top: 20px;
+}
+
+.main-banner-h2 {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0.33em;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 8px;
+  width: 80%;
+}
+
+.main-banner-h1 {
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.main-banner-p {
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.yellow {
+  color: #edbc2b;
+}
+.banner-jackpot {
+  position: relative;
+}
+.banner-jackpot-img {
+  height: 146px;
+  width: 228px;
+}
+
+.banner-jackpot-p {
+  position: absolute;
+  top: 60px;
+  right: 13px;
+  width: 205px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #edbc2b;
+  overflow: hidden;
+}
+
+.virgula {
+  width: 5px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.main-banner-button {
+  height: 40px;
+  width: 141px;
+  border: none;
+  background: #edbc2b;
+  border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 14px, 28px, 14px, 28px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 22px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  gap: 8px 24px;
+}
+
+.card1 {
+  background-image: url("assets/tablet\ -mobile/first-card_mobile.webp");
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 130px;
+  border-radius: 20px;
+}
+
+.card-h1 {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.card-span {
+  color: #ffc312;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.card2 {
+  background-image: url("assets/tablet\ -mobile/second-card_mobile.webp");
+  background-size: cover;
+  background-position: center;
+  width: 130px;
+  height: 180px;
+  border-radius: 20px;
+}
+
+.card-p {
+  padding-top: 70px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.extra-padd {
+  padding-top: 72px;
+}
+.card3 {
+  background-image: url("assets/tablet\ -mobile/third-card_mobile.webp");
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 130px;
+  border-radius: 20px;
+}
+
+.card4 {
+  background-image: url("assets/tablet\ -mobile/forth-card_mobile.webp");
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 130px;
+  border-radius: 20px;
+}
+
+.icons {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  gap: 48px;
+}
+
+.icon-img {
+  height: 33px;
+  width: 33px;
+}
+
+.icon-text {
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-p {
+  font-family: Roboto;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.two-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.reviewed,
+.casinodaddy {
+  height: 30px;
+  width: 90px;
+  border-radius: 4px;
+  padding: 1px, 11px, 1px, 11px;
+}
+
+.sliderOne {
+  height: 70px;
+  border-top: 1px solid rgba(134, 141, 153, 0.2);
+  border-bottom: 1px solid rgba(134, 141, 153, 0.2);
+  margin-bottom: 16px;
+  max-width: 1240px;
+  margin-inline: auto;
+}
+
+@media only screen and (min-width: 700px) and (orientation: landscape) {
+  .payment {
+    height: 33px !important;
+    width: 700px !important;
+  }
+
+  .main-banner-h2 {
+    font-size: 14px;
+  }
+  .main-banner-h1 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .banner-jackpot-img {
+    height: 166.1628875732422px;
+    width: 234px;
+    left: 395px;
+    top: 149.146240234375px;
+    border-radius: 0px;
+  }
+
+  .banner-jackpot-p {
+    position: absolute;
+    top: 90px;
+    right: 41px;
+    width: 205px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #edbc2b;
+    overflow: hidden;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    height: 225px;
+    width: 220px;
+    border-radius: 28px;
+  }
+  .payment {
+    margin-bottom: 19px;
+  }
+
+  .card-h1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .card-p {
+    padding-top: 99px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .card-span {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .card-span > br {
+    display: none;
+  }
+
+  .extra-padd {
+    padding-top: 100px;
+  }
+
+  .icon {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-img {
+    height: 48px;
+    width: 48px;
+  }
+
+  .icon-text {
+    text-align: left;
+    margin-left: 2px;
+    //styleName: body;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .reviewed,
+  .casinodaddy {
+    height: 40px;
+    width: 135px;
+    border-radius: 8px;
+  }
+
+  .footer-p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 700px) and (orientation: portrait) {
+  .main-banner {
+    background-image: url("assets/tablet\ -mobile/main-banner_tablet-portrait.webp");
+  }
+  .logo {
+    height: 50px;
+    width: 252px;
+  }
+
+  .main-banner-h2 {
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 14px;
+    letter-spacing: 0.33em;
+    text-align: center;
+  }
+
+  .main-banner-h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .banner-jackpot-img {
+    height: 204px;
+    width: 284px;
+  }
+
+  .banner-jackpot-p {
+    position: absolute;
+    top: 90px;
+    right: 41px;
+    width: 205px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #edbc2b;
+    overflow: hidden;
+  }
+
+  .payment {
+    height: 57px !important;
+    width: 503px !important;
+    margin-bottom: 34px;
+  }
+
+  .card1 {
+    background-image: url("assets/tablet\ -mobile/first-card_tablet.webp");
+    background-size: cover;
+    background-position: center;
+    height: 276px;
+    width: 174px;
+    border-radius: 20px;
+  }
+  .card2 {
+    background-image: url("assets/tablet\ -mobile/second-card_tablet.webp");
+    background-size: cover;
+    background-position: center;
+    height: 276px;
+    width: 174px;
+    border-radius: 20px;
+  }
+  .card3 {
+    background-image: url("assets/tablet\ -mobile/third-card_tablet.webp");
+    background-size: cover;
+    background-position: center;
+    height: 276px;
+    width: 174px;
+    border-radius: 20px;
+  }
+  .card4 {
+    background-image: url("assets/tablet\ -mobile/forth-card_tablet.webp");
+    background-size: cover;
+    background-position: center;
+    height: 276px;
+    width: 174px;
+    border-radius: 20px;
+  }
+
+  .card-h1 {
+    padding-top: 48px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .card-p {
+    padding-top: 103px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .card-span {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .icon {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-img {
+    height: 48px;
+    width: 48px;
+  }
+
+  .icon-text {
+    text-align: left;
+    margin-left: 2px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .reviewed,
+  .casinodaddy {
+    height: 40px;
+    width: 135px;
+
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    margin: 0 auto;
+  }
+  .main-banner {
+    background-image: url("assets/main-banner_desktop.webp");
+    height: 390px;
+  }
+
+  .main-banner-h2 {
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 14px;
+    letter-spacing: 0.33em;
+    text-align: center;
+  }
+
+  .main-banner-h1 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .banner-jackpot-img {
+    height: 166px;
+    width: 234px;
+  }
+
+  .payment {
+    height: 23px !important;
+    width: 898px !important;
+  }
+
+  .banner-jackpot-p {
+    position: absolute;
+    top: 70px;
+    right: 13px;
+    width: 205px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #edbc2b;
+    overflow: hidden;
+  }
+
+  .cards {
+    gap: 32;
+  }
+
+  .icons {
+    gap: 80px;
+  }
+
+  .footer {
+    max-width: 1240px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .logo {
+    height: 50.4px;
+    width: 252px;
+    margin-top: 0px;
+  }
+
+  .main-banner {
+    height: 512px;
+  }
+
+  .icons {
+    margin-top: 50px;
+  }
+
+  .main-banner-h1 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .banner-jackpot-img {
+    height: 214px;
+    width: 302px;
+  }
+
+  .banner-jackpot-p {
+    position: absolute;
+    top: 95px;
+    right: 45px;
+    width: 205px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #edbc2b;
+    overflow: hidden;
+  }
+
+  .payment {
+    height: 60px !important;
+    width: 520px !important;
+  }
+
+  .payments {
+    margin: -5px 0px 49px 0px;
+  }
+
+  .two-logos {
+    margin-top: 30px;
+    margin-bottom: 46px;
+  }
+
+  .footer-p {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
